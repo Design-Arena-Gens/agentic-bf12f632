@@ -914,4 +914,8 @@ config/database.yml
 *.tar
 *.zip
 
+# Project manifest overrides
+!package.json
+!package-lock.json
+
 # ===== END =====
